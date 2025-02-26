@@ -1,4 +1,4 @@
-# mc.java.sts.jpa
+# mc.springboot.jpa
 
 Java Persistence API (JPA)를 활용 / Oracle Cloud 데이터베이스와의 상호작용 실습<br/>
 CRUD(Create, Read, Update, Delete) 구현을 통해 JPA의 기본 개념 이해 및 적용<br/>
