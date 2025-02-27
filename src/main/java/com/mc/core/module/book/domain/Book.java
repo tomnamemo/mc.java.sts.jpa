@@ -3,6 +3,7 @@ package com.mc.core.module.book.domain;
 import com.mc.core.infra.entity.BaseEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import org.hibernate.annotations.DynamicInsert;
@@ -19,8 +20,10 @@ public class Book extends BaseEntity {
 
     @Id // 기본 키 설정
     @GeneratedValue // 자동으로 생성되는 값
+    @Getter
     private Long id; // 책 ID
 
+    @Getter
     private String title; // 책 제목
     private String author; // 저자
     private String category; // 카테고리
