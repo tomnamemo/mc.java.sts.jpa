@@ -69,3 +69,8 @@ Thumbs.db
 # Other
 *.tmp
 *.temp
+
+# application.properties 파일 (민감한 정보 포함)
+application.properties
+application-local.properties
+application-prod.properties
